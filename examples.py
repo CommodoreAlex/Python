@@ -45,3 +45,9 @@
 
 #print phonebook
 #---------------------------
+#Interesting input thing
+prompt = '> '
+
+print "What kind of computer do you have?"
+computer = raw_input(prompt)
+print "Cool!"
