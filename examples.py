@@ -46,8 +46,8 @@
 #print phonebook
 #---------------------------
 #Interesting input thing
-prompt = '> '
+#prompt = '> '
 
-print "What kind of computer do you have?"
-computer = raw_input(prompt)
-print "Cool!"
+#print "What kind of computer do you have?"
+#computer = raw_input(prompt)
+#print "Cool!"
