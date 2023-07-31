@@ -1,4 +1,3 @@
-  GNU nano 7.2                                    2.py                                             
 #!/usr/bin/python
 import sys, socket
 
