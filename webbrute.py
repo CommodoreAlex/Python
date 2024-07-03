@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 # This is a tool to brute force web directories, return valid webpages found.
 
 import requests
