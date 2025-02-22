@@ -56,11 +56,6 @@ These scripts serve to automate system administration and network security tasks
 - Hugs.py 
     A script that uses a pre-trained GPT-2 model from **Hugging Face** and **PyTorch** to generate text based on a given prompt. The script allows for adjustable parameters such as temperature sampling, top-k sampling, and repetition penalty to control the diversity and quality of the generated text.
 
-**Usage Example**:
-```bash
-python3 AI_Text_Generator.py "Once upon a time in a distant land"
-```
-
 ---
 
 ## Features
