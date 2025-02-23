@@ -61,11 +61,10 @@ These scripts serve to automate system administration and network security tasks
 ## Features
 
 - **Security Tools**: Scripts focused on penetration testing and vulnerability scanning.
-- **Automation**: Projects such as `SimpleScan`, `scanner.py`, and `Clean_ssh.py` automate tasks like network scanning and system maintenance.
-- **Data Handling**: Tools like `Offset.py`, `Fuzz.py`, and `Overwrite.py` handle data manipulation, fuzz testing, and file management.
+- **Automation**: Projects such as `scanner.py` and `Clean_ssh.py` automate tasks like network scanning and system maintenance.
 - **Cryptography**: Scripts like `decodeXOR.py` and `misfortune.py` showcase encryption and decryption techniques.
 - **Library Management**: The `library_app.py` script demonstrates basic CRUD operations and file-based data storage.
-- **AI/NLP**: The `AI_Text_Generator.py` script showcases natural language processing using pre-trained models.
+- **AI/NLP**: The `Hugs.py` script showcases natural language processing using pre-trained models.
 
 ---
 
