@@ -8,8 +8,6 @@ import re
 import tkinter as tk
 from tkinter import messagebox, simpledialog
 
-
-
 # Define the directory path
 directory = '/var/library_management/'
 directory2 = '/var/library_management/books/'
