@@ -49,7 +49,7 @@ These scripts serve to automate system administration and network security tasks
 ### **Library Management App**
 
 - **Library_app.py**  
-    A simple library management application that allows users to view, add, delete, and open books. It demonstrates basic file handling and user interface functionality. The app includes logging for auditing actions performed on the library data.
+    This Python script is a simple library management system designed to handle basic operations related to books and employees within a library. It allows administrators to add and manage employee data (name and phone number), view the list of employees, and add or delete books. The system ensures data security by using bcrypt for password hashing and allows only authorized users to access certain functionalities. It includes the creation of directories and files for storing data, and it ensures proper logging for all operations. The script also handles input sanitization, validation of phone numbers, and protects sensitive files with appropriate user group permissions. Additionally, it supports managing a list of books stored in a text file, ensuring no duplicate entries, and allows users to open, view, and delete books in the library.
 
 ### **AI and NLP Tools**
 
