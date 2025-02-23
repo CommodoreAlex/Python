@@ -19,8 +19,8 @@ These scripts are designed to assist in various security testing and penetration
     
 - **WordpressIDs.py**  
     A tool for brute-forcing user IDs in WordPress blogs by sending requests to a target URL with different author IDs. This script is useful for identifying valid user IDs during penetration testing or CTF challenges.
-* Wifisniffer.py
-	This Python script uses the `scapy` library to capture and analyze Wi-Fi network packets. It begins by defining a network interface (e.g., `wlan0`) and includes functions to switch the interface into "monitor mode," which allows it to capture all Wi-Fi traffic in the vicinity, and revert it back to "managed mode" for normal operation. The `packet_handler` function processes captured packets, specifically Beacon frames from nearby access points, extracting key information like the SSID (network name), signal strength (in dBm), and encryption type (such as WPA2, WPA3, or WEP). The script enables monitor mode, captures packets for 10 seconds, and then disables monitor mode when finished.
+- **Wifisniffer.py**
+    This Python script uses the `scapy` library to capture and analyze Wi-Fi network packets. It begins by defining a network interface (e.g., `wlan0`) and includes functions to switch the interface into "monitor mode," which allows it to capture all Wi-Fi traffic in the vicinity, and revert it back to "managed mode" for normal operation. The `packet_handler` function processes captured packets, specifically Beacon frames from nearby access points, extracting key information like the SSID (network name), signal strength (in dBm), and encryption type (such as WPA2, WPA3, or WEP). The script enables monitor mode, captures packets for 10 seconds, and then disables monitor mode when finished.
 
 ### **File Manipulation & Encoding/Decoding**
 
